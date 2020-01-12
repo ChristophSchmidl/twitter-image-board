@@ -3,6 +3,46 @@
 A simple dashboard which is scraping images from twitter profiles and presents them in a scrolling-like fashion
 
 
+
+## Basic Usage
+
+**Python Virtual Environment**
+
+* https://docs.python-guide.org/dev/virtualenvs/
+* Check if virtualenv is installed: ```virtualenv --version```, if not: ```pip install virtualenv```
+
+1. Create a virtual environment for a project:
+
+```
+$ cd project_folder
+$ virtualenv venv
+```
+
+You can also use the Python interpreter of your choice (like python2.7).
+
+```
+$ virtualenv -p /usr/bin/python2.7 venv
+```
+
+2. To begin using the virtual environment, it needs to be activated:
+
+```
+$ source venv/bin/activate
+```
+
+Install packages using the pip command:
+
+```
+$ pip install <package>
+```
+
+3. If you are done working in the virtual environment for the moment, you can deactivate it:
+
+```
+$ deactivate
+```
+
+
 ## Libraries
 
 **Scraping Twitter without using its API**
@@ -48,3 +88,6 @@ A simple dashboard which is scraping images from twitter profiles and presents t
 	* Watch: 2300
 	* Fork: 13200
 	* Used by: 370000
+
+
+	
